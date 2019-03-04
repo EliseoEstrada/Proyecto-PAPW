@@ -1,0 +1,13 @@
+.baseClass{   
+  width: 800px;
+  margin: 0 auto;
+  transform: translate(0%,-21%);
+}
+
+.formulario{
+	transform: translate(30%,21%);
+}
+
+.btnClass{
+	transform: translate(160%);
+}

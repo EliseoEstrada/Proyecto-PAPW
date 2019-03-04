@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Detalle</title>
+    <link rel="stylesheet" type="text/css" href="CSS/general.css">
+    <link rel="stylesheet" type="text/css" href="CSS/detalle.css">
+    
+    </style>
+  </head>
+  <body>
+    <a href="Inicio.html">
+      <img src="Imagenes/logo.png" id="logo" alt="logotipo">  
+    </a>
+    <div class="baseClass">
+
+      <div class="usuarioClass">
+        <table>
+          <tr>
+            <th><img src="Imagenes/iconoUsuario.png" alt="logotipo"></th>
+            <th>Usuario</th>
+          </tr>
+        </table>
+      </div>      
+      <hr>
+      <div id="header">
+        <ul class="nav">
+          <li><a>Mi cuenta</a>
+             <ul>
+              <li><a href="ReporteCompra.html">Mis productos</a></li>
+              <li><a href="Chat.html">Chat Admi</a></li>
+              <li><a href="Login.html">Salir</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="Carrito.html">Carro</a>
+          </li>
+          <li><a>Categoria</a>
+            <ul>
+              <li><a href="">Instrumentos</a></li>
+              <li><a href="">Audio</a></li>
+              <li><a href="">Accesorios</a></li>
+            </ul>
+          </li>
+          <li><a >Opciones (Admi)</a>
+            <ul>
+              <li><a href="ReporteVentas.html">Reportes</a></li>
+              <li><a href="AgregarProducto.html">Agregar producto</a></li>
+              <li><a href="Productos.html">Todos losproductos</a></li>
+            </ul>
+          </li>
+        </ul>
+        
+      </div>
+      <hr> 
+      <div class="articulo">
+        <div class="visualizacion">
+          <img src="Imagenes/marshall.jpg" class="imagenProducto" alt="logotipo">
+          <div class="preVisualizacion">
+            <ul>
+              <li><img src="Imagenes/marshall.jpg" class="imagenPequeña" alt="logotipo"></li>
+              <li><img src="Imagenes/marshall.jpg" class="imagenPequeña" alt="logotipo"></li>
+              <li><img src="Imagenes/marshall.jpg" class="imagenPequeña" alt="logotipo"></li>
+            </ul>
+          </div> 
+        </div>
+        <div class="informacion">
+          <br><br>
+          <p>
+            <label>Producto: Amplificador</label>
+          </p>
+          <p>
+            <label>Descripcion: Amplificador</label>
+          </p>
+          <p>
+            <label>Categoria: Audio</label>
+          </p>
+          <p>
+            <label>Precio: 2500.00$</label>
+          </p>
+          <p>
+            <label>Calificaciones positivas: 5</label>
+          </p>
+          <p>
+            <label>Calificaciones negativas: 5</label>
+          </p>
+          <form
+          <form action="Carrito.html" method="post">
+            <p>
+              <label>Cantidad:</label>
+              <input type="number" name="Cantidad">
+            </p>
+            <input type="submit" name="submit" class="btnClass" value="Añadir al carrito">
+          </form>
+        </div>
+      </div>  
+    </div>
+  </body>
+</html>

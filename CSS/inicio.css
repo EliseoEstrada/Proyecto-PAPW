@@ -1,0 +1,27 @@
+
+.baseClass{   
+  width: 800px;
+  margin: 0 auto;
+  transform: translate(0%,-15%);
+}
+
+.productosClass table{
+  transform: translate(0%,10%);
+  border-spacing: 15px;
+  height: 400px;
+  width: 800px;
+  border: 1px solid black;
+}
+
+.productosClass tr, th{
+
+}
+.imagenProducto{
+  height: 100px;
+  width: 100px;
+}
+
+.btnClass{
+  transform: translate(480%);
+}
+

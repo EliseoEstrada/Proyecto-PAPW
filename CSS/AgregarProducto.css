@@ -1,0 +1,28 @@
+.baseClass{   
+  width: 800px;
+  margin: 0 auto;
+  transform: translate(0%,-50%);
+}
+
+.imagenProducto{
+	height: 150px;
+	width: 150px;
+}
+
+.imagenes{
+	width: 200px;
+	float: left;
+	cursor: pointer;
+	padding: 5px;
+}
+
+.imagenes ul{
+	list-style-type: none;
+	padding-left: 15px;
+	overflow: hidden;
+}
+
+.info{
+	float: right;
+	width: 400px;
+}

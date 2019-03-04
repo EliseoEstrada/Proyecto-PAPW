@@ -1,0 +1,51 @@
+.baseClass{   
+  width: 800px;
+  margin: 0 auto;
+  transform: translate(0%,-60%);
+}
+
+.imagenProducto{
+	height: 300px;
+	width: 300px;
+}
+
+.imagenPequeña{
+	height: 90px;
+	width: 90px;
+}
+
+.articulo{
+	
+}
+.visualizacion{
+	float: left;
+	
+	cursor: pointer;
+	padding: 5px;
+	border: 1px solid #dbdbdb;
+}
+
+.preVisualizacion{
+	overflow: hidden;
+	width: 300px;
+}
+.preVisualizacion ul{
+	list-style-type: none;
+	padding-left: 0;
+	overflow: hidden;
+	height: 100px;
+}
+
+.preVisualizacion li{
+	float: left;
+	height: 50px;
+	width: 100px;
+}
+.informacion{
+	float: right;
+	width: 300px;
+}
+
+.btnClass{
+	width: 80%;
+}

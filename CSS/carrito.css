@@ -1,0 +1,31 @@
+.baseClass{   
+  width: 800px;
+  margin: 0 auto;
+  transform: translate(0%,-20%);
+}
+
+img{
+	height: 50px;
+	width: 50px;
+}
+
+#tablaDetalle{
+	text-align: center;
+	width: 800px;
+	border-collapse: collapse;
+}
+
+#tablaDetalle td{
+	border: 1px solid #d6d4d4;
+}
+
+#tablaDetalle th{
+	width: 150px;
+	height: 80px;
+	border: 1px solid #d6d4d4;
+}
+
+.btnClass{
+	float: right;
+	margin:10px;
+}

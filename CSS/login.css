@@ -1,0 +1,31 @@
+
+.baseClass{
+	width: 300px;
+  	margin: 0 auto;
+}
+
+.loginClass{
+	width: 280px;
+	position: absolute;
+	transform: translate(-50%,	0%);
+	border-right: 2px solid white;
+}
+
+.sesionClass{
+	width: 280px;
+	position: absolute;
+	transform: translate(60%,90%);
+}
+
+.loginClass .avatar{
+	border-radius: 50%;
+	transform: translate(40%);
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+.btnClass{
+	transform: translate(150%);
+}
+

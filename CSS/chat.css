@@ -1,0 +1,26 @@
+.baseClass{   
+  width: 800px;
+  margin: 0 auto;
+  transform: translate(0%,-30%);
+}
+
+.texto input{
+	width: 400px;
+}
+
+#remitente input{
+	float: right;
+}
+
+#receptor input{
+	float: left;
+}
+
+.mensaje{
+	float: right;
+}
+
+.btnClass{
+	width: 250px;
+	transform: translate(4%,0%);
+}
